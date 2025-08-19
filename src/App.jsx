@@ -14,7 +14,7 @@ function App() {
    
 
       <h1 className="text-2xl font-normal text-sm line-clamp-1 name  mb-4 text-center">Product</h1>
-      <div className=" Product grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className=" Product grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
         {data.map((product) => (
           <div
             key={product.id}
