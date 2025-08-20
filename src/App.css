@@ -33,12 +33,11 @@
 
 /* Image styling */
 .product-image {
-  width: 12rem;
+    width: 12rem;
   height: 12rem;
   object-fit: cover;
   border-radius: 6px;
-  gap: 0.5rem;
-  margin-left: 2rem;
+  margin: 0 auto; 
 }
 
 /* Text content */
@@ -81,8 +80,12 @@
 
 
 .grid{
+   
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     padding-left: 9rem;
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 1rem;
 }
